@@ -3,6 +3,9 @@ problem statement:
 Estimate state vaccine consumption 
     -with vacc hestitancy
     -with goal of creating more efficient vaccine allocations
+    
+    https://data.cdc.gov/Vaccinations/National-Weekly-Pfizer-Allocations/sxbq-3sid
+    https://data.cdc.gov/stories/s/cnd2-a6zw
 
 Who are we doing this for?
     -common public (more efficiently allocated vaccines means more people who want it can get it)
