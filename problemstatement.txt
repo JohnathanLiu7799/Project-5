@@ -1,0 +1,17 @@
+problem statement:
+
+Estimate state vaccine consumption 
+    -with vacc hestitancy
+    -with goal of creating more efficient vaccine allocations
+
+Who are we doing this for?
+    -common public (more efficiently allocated vaccines means more people who want it can get it)
+    -government (less wasted resources)
+    -medical companies (less wasted vaccines)
+
+Background
+    -What resources are consumed when vaccines are being held in storage long term
+
+How are we identifying success:
+    loss function:
+    -difference between vaccines allocated and vaccines used
