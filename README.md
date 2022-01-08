@@ -25,6 +25,7 @@ Three datasets were exported from CDC:
 - COVID-19 Vaccinations in the United States, Jurisdiction ([link](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc))
 - COVID-19 County Hesitancy ([link](https://data.cdc.gov/Vaccinations/COVID-19-County-Hesitancy/c4bi-8ytd))
 
+*** Note: these datasets must be downloaded before proceeding to the notebooks
 ## Data Dictionary
 
 Full data dictionary can be obtained here:
