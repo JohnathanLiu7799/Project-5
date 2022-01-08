@@ -86,5 +86,3 @@ All states follow same curve over time. Florida and New York have almost identic
 
 ## Conclusion 
 
-## Acknowledgements 
-
