@@ -36,49 +36,49 @@ Full data dictionary can be obtained here:
 
 ### County Choropleth Maps
 
-![](./images/vaccinated.png)
+![](./images/vaccinated.png) <br>
 Most counties showing up. Vaccine percentage per county about what I expected, with Georgia clearly behind other states.
 
-![](./images/vaccinated.png)
+![](./images/vacc_one_dose.png)<br>
 A few more counties not recording who only has received one dose, mostly in rural Nebraska. Data maps well onto total vaccinated numbers, with no weird outliers way ahead on the first dose, but lagging on the second dose.
 
-![](./images/hesitancy.png)
+![](./images/hesitancy.png)<br>
 Interestingly, the only map with clear state lines across the whole map. This fact means that either: vaccine hesitancy is heavily informed by state culture rather than county, or states are using different metrics to determine vaccine hesitancy. Or a mix of both. Vaccine hestiancy higher in southern states and the northern Rockies.
 
-![](./images/svi.png)
+![](./images/svi.png)<br>
 Looking at how badly counties might be affected by a COVID outbreak. Mostly the southern states as well as California and the Pacific Northwest.
 
-![](./images/vaccine_rollout_concern.png)
+![](./images/vaccine_rollout_concern.png)<br>
 Looking at how worried the CVAC is worried about the ability to distribute vaccines across counties. Maps fairly closely to SVI index, with exceptions of more rollout concern for Missouri and Indiana, and less concern about Kentucky.
 
 ### Most and Least Vaccinated Counties
 
-![](./images/most_vacc.png)
+![](./images/most_vacc.png)<br>
 No real pattern for most vaccinated counties. Counties coming from the whole of the US.
 
-![](./images/least_vacc.png)
+![](./images/least_vacc.png)<br>
 To no surprise from earlier visualization, Georgian counties among the most on the chart, with surprisingly some Massachusettes counties.
 
 ### Most Hesitant Counties vs Vaccination Rate
 
-![](./images/mh.png)
+![](./images/mh.png)<br>
 All Montana counties showing up as they are the least dense state, and people might not feel the vaccine is necessary as they are having little contact with others.
 
-![](./images/mh_vacc.png)
+![](./images/mh_vacc.png)<br>
 Despite similar hesitancy rates, massive variance in vaccination rates.
 
 ### Least Hesitant Counties vs Vaccination Rate
 
-![](./images/lh.png)
+![](./images/lh.png)<br>
 Around a 3% hesitancy rate for the lowest. Counties found mostly in the Northeast and California.
 
-![](./images/lh_vacc.png)
+![](./images/lh_vacc.png)<br>
 More consistently higher vaccination rates as compared to the most hesitant counties. However, still a good deal of variance.
 
 ### Vaccine Distribution over Time from State Sampling
 
-Although our model will not be factoring time, I still want to take a glance of distribution to see if there are any useful patterns to inform ourselves.
-![](./images/state_distr.png)
+Although our model will not be factoring time, I still want to take a glance of distribution to see if there are any useful patterns to inform ourselves.<br>
+![](./images/state_distr.png)<br>
 All states follow same curve over time. Florida and New York have almost identical population and have almost the same plot. When scaling population numbers for states, all follow almost the identical line. It is safe to say that state distribution is determined almost solely by population. Hopefully our model can distribute vaccines in a more efficient manner as not all states will use their allocated vaccines and will go to waste.
 
 ## Analysis Summary 
